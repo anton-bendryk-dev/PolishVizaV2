@@ -1,0 +1,108 @@
+header {
+    min-height: 890px;
+    background-image: url("../images/header-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+.inner-header{
+    background-color: rgba(64, 64, 64, 0.5);
+}
+.header-navigation-container {
+    min-height: 109px;
+    grid-template-columns: 30% 40% 30%;
+    grid-template-rows: 1fr;
+    width: 100%
+}
+.logo img{
+    width: 100%;
+    max-width: 200px;
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #641721;
+    z-index: 1000000;
+  }
+.contacts button {
+    font-size: 12px;
+}
+
+.navigation div {
+    max-width: 600px;
+    width: 100%;
+}
+
+.number {
+    padding: 0px 10px;
+    width: 60%;
+}
+
+.number span {
+    padding: 0px 5px;
+    display: block;
+    width: 25px;
+    height: 25px;
+    background-image: url(../images/phone-call.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.number div{
+    display: flex;
+    color: #fff;
+    padding-top: 10px;
+    font-weight: bold;
+    align-items: center;
+}
+.navigation a {
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 0.5px;
+    font-weight: bold;
+}
+
+.navigation a:hover {
+    font-size: 19px;
+    transition-duration: 500ms;
+}
+.header-description-container{
+    grid-template-columns: 60% 20% ;
+    grid-template-rows: 1fr;
+    justify-content: right;
+    align-items: center;
+    padding-top: 130px;
+    padding-bottom: 200px;
+    background-image: url("../images/header-man.png");
+    background-size: contain;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-position-x: 80%;
+}
+.header-description-container p {
+    display: flex;
+    align-items: center;
+    font-size: 22px;
+    line-height: 140.62%;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+.label-checkmark{
+    margin-right: 10px;
+    display: block;
+    width: 25px;
+    min-width: 25px;
+    height: 25px;
+    background-image: url(../images/checkmark\ 2.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.buttons-container{
+    display: flex;
+    height: 100px;
+}
+.buttons-container div{
+    margin-right: 30px;
+}

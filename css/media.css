@@ -1,0 +1,138 @@
+#cost-section,
+#guarantees-section,
+#how-it-works-section,
+#feedback-section,
+#call-back-section {
+    position: relative;
+    top: -109px;
+}
+@media screen and (max-width: 1760px) {
+  .header-description-container {
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 1530px) {
+  .header-navigation-container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .header-description-container {
+    background-size: 40%;
+    background-position: right bottom;
+  }
+  .how-it-works-container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+@media screen and (max-width: 1364px) {
+  .inline-wrapper {
+    width: 100%;
+  }
+  .header-navigation-container {
+    grid-template-columns: 100%;
+    grid-template-rows: 3fr;
+  }
+  .contacts{
+    order: 2;
+  }
+  .logo{
+    order: 1;
+  }
+  .order3{
+    order: 3;
+  }
+  .navigation{
+    order: 3;
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .header-description-container {
+    grid-template-columns: 1fr;
+    padding-top: 10px;
+    background-image: none;
+    padding-bottom: 200px;
+  }
+  h1{
+    font-size: 35px;
+    text-align: center;
+    max-width: 100%;
+    padding: 20px;
+  }
+  .header-description-container p{
+    padding-left: 20px;
+  }
+  .buttons-container {
+    justify-content: center;
+  }
+  header{
+    min-height: 700px;
+  }
+  .about-company{
+    flex-wrap: wrap;
+    padding-top: 20px;
+  }
+  .about-us-section{
+    flex-direction: column;
+  }
+  .about-us-box1, .about-us-box2, .about-us-box{
+    width: 100%;
+    padding-top: 0px;
+  }
+  .about-us-box{
+    padding: 0px 20px;
+  }
+  .number {
+    width: 100%;
+}
+}
+@media screen and (max-width: 670px) {
+  .header-navigation-container {
+    grid-template-columns: 1fr;
+    grid-template-rows: 3fr;
+  }
+  .navigation{
+    grid-column-end: 2;
+  }
+  .contacts{
+    display: none;
+  }
+  .contacts div{
+    padding: 10px;
+  }
+  .navigation div{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 2fr;
+  }
+  .navigation a{
+    text-align: center;
+  }
+  .buttons-container {
+    flex-direction: column;
+    justify-content: space-around;
+    height: 150px;
+  }
+  .buttons-container div {
+    margin-right: 0px;
+  }
+  .call-back-box {
+    grid-template-columns: 100%;
+  }
+  .inline-helps-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .how-it-works-container {
+    grid-template-columns: 100%;
+    grid-template-rows: 2fr;
+  }
+  .sticky {
+    position: relative;
+    top: 0;
+    width: 100%;
+    background-color: transparent;
+  }
+}
